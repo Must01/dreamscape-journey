@@ -38,7 +38,6 @@ Route::middleware(['auth'])->group(function () {
     Route::put('/account', [UserController::class, 'updateProfile'])->name('profile.update');
     Route::post('/account/password', [UserController::class, 'changePassword'])->name('password.change');
 
-
     // Booking routes
     Route::get('/account/bookings', [BookingController::class, 'index'])->name('bookings.index');
     Route::get('/bookings/{id}', [BookingController::class, 'show'])->name('bookings.show');
