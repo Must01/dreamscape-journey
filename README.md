@@ -2,6 +2,9 @@
 
 A modern travel booking platform built with Laravel, allowing users to discover and book unique travel experiences.
 
+<img width="1868" height="955" alt="image" src="https://github.com/user-attachments/assets/4ef098f3-8fe4-41b1-9fb4-d85b50a30e38" />
+
+
 ## Features
 
 - **User Authentication**
